@@ -248,7 +248,7 @@ void loop()
 	for (j=0; j<N_VALUES;j++)
 		res[j]=j*102;
 
-    hex = new HexWS2801z(N_VALUES*2, 0xAAAA, 1);
+    hex = new HexWS2801z(N_VALUES*2, 0xAAAA, 1, 3200000);
     hex->begin();
 
 /*
