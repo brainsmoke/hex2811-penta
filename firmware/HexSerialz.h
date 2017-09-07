@@ -1,4 +1,5 @@
-/*  HexWS2811 - an OctoWS2811 fork to drive 16 LED strips at once using a Teensy 3.x
+/*  HexSerialz - an OctoWS2811 fork to send 16 UART streams in parallel
+    using a Teensy 3.x
     by Erik Bosman <erik@minemu.org> Zero copy version, similar to the Fadecandy
     implementation.
 
