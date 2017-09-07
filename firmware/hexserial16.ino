@@ -222,17 +222,17 @@ void loop(void)
 
     hex = new HexSerialz(N_BAUDS_PER_STRIP*2, 1000000);
     hex->begin();
-
+/*
 int i=0;
 uint32_t t0, t, tmax=0;
-
+*/
     for (;;)
     {
-
+/*
 t0=micros();
-
+*/
 		read_next_frame();
-
+/*
 t=micros()-t0;
 if (t>tmax)
     tmax = t;
@@ -243,6 +243,7 @@ if (i==4000)
     i=0;
     tmax=0;
 }
+*/
         hex->show(cur);
         tmp=cur;
 		cur=next;
